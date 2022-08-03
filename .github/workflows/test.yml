@@ -6,3 +6,9 @@ on:
         required: false
         default: 'input1'
         type: string
+jobs:
+  fjei:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "fadsf"
+  
