@@ -1,1 +1,8 @@
-
+on:
+  workflow_dispatch:
+    inputs:
+      input1:
+        description: 'input1'
+        required: false
+        default: 'input1'
+        type: string
