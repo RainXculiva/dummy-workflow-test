@@ -2,6 +2,8 @@ on:
   workflow_dispatch:
 jobs:
   dummy:
+    env:
+      build_number: ${{ github.run_number }}
     runs-on: ubuntu-latest
     steps:
       - run: echo "echo"
