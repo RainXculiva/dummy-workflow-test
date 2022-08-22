@@ -3,7 +3,7 @@ on:
 jobs:
   dummy:
     env:
-      build_number: ${{ github.run_number  }} + '900'
+      build_number: ${{ github.run_number  }} + 900
     runs-on: ubuntu-latest
     steps:
       - run: echo "$build_number"
